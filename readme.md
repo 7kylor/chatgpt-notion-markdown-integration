@@ -28,6 +28,7 @@ A tool for formatting and uploading markdown content to Notion, available as bot
 2. Install the package:
 ```bash
 npm install notion-format-helper
+bun install notion-format-helper
 ```
 3. Set up your environment:
 ```bash
