@@ -1,0 +1,11 @@
+/* Add any custom styles needed for formatting */
+.notion-formatted-code {
+  font-family: monospace;
+  background-color: #f7f7f7;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.notion-formatted-equation {
+  font-family: 'KaTeX', serif;
+} 

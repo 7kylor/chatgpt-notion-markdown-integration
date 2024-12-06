@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Format Helper",
+  "version": "1.0",
+  "description": "Automatically formats ChatGPT and markdown text for Notion",
+  "permissions": ["clipboardRead", "clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.notion.so/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+} 
+ 

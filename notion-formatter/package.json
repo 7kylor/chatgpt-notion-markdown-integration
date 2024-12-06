@@ -1,0 +1,14 @@
+{
+  "name": "notion-formatter",
+  "version": "1.0.0",
+  "description": "Format and upload content to Notion",
+  "main": "index.js",
+  "bin": {
+    "notion-formatter": "./cli.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.0",
+    "marked": "^4.0.0",
+    "dotenv": "^16.0.0"
+  }
+} 
